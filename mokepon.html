@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8"</>
         <title>Mokepones 🔥💧🌱</title>
+        <script src="main.js"></script>
+        
     </head>
     <body>
         <h1>Mokepones 🔥💧🌱</h1>
@@ -10,25 +12,31 @@
         <section id="seleccionar-mascota">
 
             <h2>Elige tu mascota:</h2>
-            <input type="radio" name="mascota">
-            <input type="radio" name="mascota">
-            <input type="radio" name="mascota">
 
-            <button>Seleccionar</button>
+            <label for="hipodoge">hipodoge</label>
+            <input type="radio" name="mascota" id="hipodoge">
 
+            <label for="capipepo">capipepo</label>
+            <input type="radio" name="mascota" id="capipepo">
+
+            <label for="ratigueya">ratigueya</label>
+            <input type="radio" name="mascota" id="ratigueya">
+           
+            <button id="boton-mascota">Seleccionar</button>
+            
         </section>
 
         <section id="seleccionar-ataque">
 
             <h2>Elige tu ataque:</h2>
 
-            <p>Tu mascota tiene <span>3</span> vidas</p>
-            <p>La mascota enemiga tiene <span>3</span> vidas</p>
+            <p>Tu mascota <span id="mascota-jugador"></span> tiene <span>3</span> vidas</p>
+            <p>La mascota enemiga <span id="mascota-enemigo"></span> tiene <span>3</span> vidas</p>
 
             <p>
-                <button id="botoncito">fuego🔥</button>
-                <button id="botoncito">agua💧</button>
-                <button id="botoncito">tierra🌱</button>
+                <button id="boton-fuego">fuego🔥</button>
+                <button id="boton-agua">agua💧</button>
+                <button id="boton-tierra">tierra🌱</button>
             </p>
             
         </section>
@@ -38,7 +46,7 @@
         </section>
 
         <section id="reiniciar">
-            <button>Reiniciar</button>
+            <button id="boton-reiniciar">Reiniciar</button>
         </section>
 
     </body>

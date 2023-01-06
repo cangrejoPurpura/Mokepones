@@ -121,7 +121,7 @@ function ataqueMokeponEnemy(){
 
 function crearMensaje(resultado){
     let parrafo = document.createElement('p')
-    parrafo.innerHTML = 'Tu mokepon atacó con ' + ataqueJugador + ', el mokepon enemigo atacó con ' + ataqueEnemigo + '. ' + resultado + '.'
+    parrafo.innerHTML = 'Tu mokepon atacó con ' + ataqueJugador + ', el mokepon enemigo atacó con ' + ataqueEnemigo  + '. ' + resultado + '.'
 
     let sectionMensajes = document.getElementById('mensajes')
     sectionMensajes.appendChild(parrafo)
